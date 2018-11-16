@@ -1,5 +1,5 @@
 # TestPieChartView
-![不带折线的饼状图]([https://github.com/XiaoXiuXiuYe/TestPieChartView/blob/master/TestCharts/不带折线的饼状图.png)
+![不带折线的饼状图](https://github.com/XiaoXiuXiuYe/TestPieChartView/blob/master/TestCharts/不带折线的饼状图.png)
 
 ![带折线的饼状图](https://github.com/XiaoXiuXiuYe/TestPieChartView/blob/master/TestCharts/带折线的饼状图.png)
 
