@@ -62,7 +62,6 @@
     
     /* 设置饼状图扇形区块文本*/
     chartView.drawEntryLabelsEnabled = YES; //是否显示扇形区块文本描述
-    
     /*饼状图没有数据的显示*/
     chartView.noDataText = @"暂无数据";//没有数据是显示的文字说明
     chartView.noDataTextColor = UIColorFromHex(0x21B7EF);//没有数据时的文字颜色
@@ -118,7 +117,7 @@
          label : 每块扇形的文字描述
          icon  : 图片
          */
-        [values addObject:[[PieChartDataEntry alloc]initWithValue:[_numbers[i] doubleValue] label:_names[i] icon:nil]];
+//        [values addObject:[[PieChartDataEntry alloc]initWithValue:[_numbers[i] doubleValue] label:_names[i] icon:nil]];
         
         /*
          value : 每块扇形的数值
