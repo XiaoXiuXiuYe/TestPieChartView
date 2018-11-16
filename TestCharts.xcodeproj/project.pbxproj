@@ -18,7 +18,9 @@
 		C48A7718219C1A610080C56A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48A7717219C1A610080C56A /* main.m */; };
 		C48A7722219C1A610080C56A /* TestChartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C48A7721219C1A610080C56A /* TestChartsTests.m */; };
 		C48A772D219C1A610080C56A /* TestChartsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C48A772C219C1A610080C56A /* TestChartsUITests.m */; };
-		C4ECB59F219D740D00C69DB9 /* QQ20181115-163205-HD.gif in Resources */ = {isa = PBXBuildFile; fileRef = C4ECB59E219D740D00C69DB9 /* QQ20181115-163205-HD.gif */; };
+		C4FA39A7219EA8A3008144FE /* 非折线饼状图和折线并状态相互切换.gif in Resources */ = {isa = PBXBuildFile; fileRef = C4FA39A6219EA8A2008144FE /* 非折线饼状图和折线并状态相互切换.gif */; };
+		C4FA39AA219EA8F6008144FE /* 不带折线的饼状图.png in Resources */ = {isa = PBXBuildFile; fileRef = C4FA39A8219EA8F6008144FE /* 不带折线的饼状图.png */; };
+		C4FA39AB219EA8F6008144FE /* 带折线的饼状图.png in Resources */ = {isa = PBXBuildFile; fileRef = C4FA39A9219EA8F6008144FE /* 带折线的饼状图.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +64,9 @@
 		C48A772C219C1A610080C56A /* TestChartsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestChartsUITests.m; sourceTree = "<group>"; };
 		C48A772E219C1A610080C56A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4D9016CB9A70406FCD46C13 /* Pods-TestCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCharts.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCharts/Pods-TestCharts.release.xcconfig"; sourceTree = "<group>"; };
-		C4ECB59E219D740D00C69DB9 /* QQ20181115-163205-HD.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "QQ20181115-163205-HD.gif"; sourceTree = "<group>"; };
+		C4FA39A6219EA8A2008144FE /* 非折线饼状图和折线并状态相互切换.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "非折线饼状图和折线并状态相互切换.gif"; sourceTree = "<group>"; };
+		C4FA39A8219EA8F6008144FE /* 不带折线的饼状图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "不带折线的饼状图.png"; sourceTree = "<group>"; };
+		C4FA39A9219EA8F6008144FE /* 带折线的饼状图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "带折线的饼状图.png"; sourceTree = "<group>"; };
 		EDB91EF5BEADE2A39E5EAFD3 /* Pods-TestChartsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestChartsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestChartsTests/Pods-TestChartsTests.release.xcconfig"; sourceTree = "<group>"; };
 		F3512BBE58AFE315EFF089E6 /* Pods-TestChartsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestChartsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestChartsUITests/Pods-TestChartsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,7 +147,9 @@
 		C48A7707219C1A600080C56A /* TestCharts */ = {
 			isa = PBXGroup;
 			children = (
-				C4ECB59E219D740D00C69DB9 /* QQ20181115-163205-HD.gif */,
+				C4FA39A8219EA8F6008144FE /* 不带折线的饼状图.png */,
+				C4FA39A9219EA8F6008144FE /* 带折线的饼状图.png */,
+				C4FA39A6219EA8A2008144FE /* 非折线饼状图和折线并状态相互切换.gif */,
 				C48A7708219C1A600080C56A /* AppDelegate.h */,
 				C48A7709219C1A600080C56A /* AppDelegate.m */,
 				C48A770B219C1A600080C56A /* ViewController.h */,
@@ -282,10 +288,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4ECB59F219D740D00C69DB9 /* QQ20181115-163205-HD.gif in Resources */,
+				C4FA39AA219EA8F6008144FE /* 不带折线的饼状图.png in Resources */,
 				C48A7715219C1A610080C56A /* LaunchScreen.storyboard in Resources */,
 				C48A7712219C1A610080C56A /* Assets.xcassets in Resources */,
 				C48A7710219C1A600080C56A /* Main.storyboard in Resources */,
+				C4FA39A7219EA8A3008144FE /* 非折线饼状图和折线并状态相互切换.gif in Resources */,
+				C4FA39AB219EA8F6008144FE /* 带折线的饼状图.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
