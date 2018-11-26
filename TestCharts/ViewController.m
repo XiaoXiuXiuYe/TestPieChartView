@@ -30,8 +30,8 @@
     _chartView = chartView;
     [chartView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.equalTo(chartView.superview.mas_centerY);
-    make.left.equalTo(chartView.superview).offset(10);
-        make.right.equalTo(chartView.superview).offset(-10);
+    make.left.equalTo(chartView.superview).offset(20);
+        make.right.equalTo(chartView.superview).offset(-20);
 
         
         make.height.equalTo(chartView.mas_width);
@@ -43,6 +43,7 @@
     [chartView setExtraOffsetsWithLeft:5.f top:5.f right:5.f bottom:5.f];//饼状图距离边缘的间隙
     chartView.usePercentValuesEnabled = YES; //是否根据所提供的数据, 将显示数据转换为百分比格式
     chartView.dragDecelerationEnabled = YES;//拖拽饼状图后是否有惯性效果
+   
     
     /* 设置饼状图中间的文本 */
     chartView.drawCenterTextEnabled = YES;//是否绘制中间的文本
@@ -75,6 +76,14 @@
     chartView.legend.textColor = [UIColor blackColor];//图例字体颜色
     chartView.legend.form = ChartLegendFormSquare;//图示样式: 方形、线条、圆形
     chartView.legend.formSize = 5;//图示大小
+    
+    /* 饼状图名字 */
+    chartView.chartDescription.enabled = YES; //是否显示饼状图名字
+    chartView.chartDescription.text = @"我是饼状图名";//设置饼状图名字
+    chartView.chartDescription.textColor = [UIColor redColor];//设置饼状图名字颜色
+    chartView.chartDescription.textAlign = NSTextAlignmentLeft;//设置饼状图名字对齐方式
+    chartView.chartDescription.xOffset = 100;//饼状图名字x轴偏移
+
     
     /*饼状图交互*/
     chartView.rotationEnabled = YES;//是否可以选择旋转
